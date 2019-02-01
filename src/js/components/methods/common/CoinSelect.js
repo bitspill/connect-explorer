@@ -8,6 +8,7 @@ const coins = [
     { symbol: 'bch', label: 'Bitcoin Cash' },
     { symbol: 'btg', label: 'Bitcoin Gold' },
     { symbol: 'ltc', label: 'Litecoin' },
+    { symbol: 'flo', label: 'Flo' },
     { symbol: 'dash', label: 'Dash' },
     { symbol: 'zcash', label: 'Zcash' },
     { symbol: 'test', label: 'Testnet' },
