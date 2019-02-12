@@ -8,6 +8,8 @@ import router from './router';
 import { onResize, onBeforeUnload } from './actions/DOMActions';
 import styles from '../styles/index.less';
 
+window.__TREZOR_CONNECT_SRC = 'https://localhost:8088/'
+
 const root: ?HTMLElement = document.getElementById('root');
 if (root) {
     render(router, root);
